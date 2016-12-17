@@ -1,0 +1,205 @@
+
+div.sprites-container
+	{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	max-width: 100%;
+	height: auto;
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5%;
+	}
+
+.acura, .audi, .bentley, .bmw, .buick, .cadillac, .chevrolet,
+.chrysler, .dodge, .fiat, .ford, .gmc, .honda, .hyundai, .infiniti,
+.jaguar, .jeep, .kia, .landrover, .lexus, .mazda, .mercedes, .mini, 
+.mitsubishi, .nissan, .peugeot, .porsche, .saab, .saturn, .smart, 
+.subaru, .suzuki, .toyota, .volkswagen, .volvo
+{
+
+display: inline-block;
+border: 2px solid #FFFFFF;
+margin: 2%;
+background: url(sprites.png) no-repeat;
+
+}
+
+
+
+.acura{
+background-position: 0 0;
+width: 185px;
+height: 100px;
+}
+.audi{
+background-position: -199px 0;
+width: 155px;
+height: 100px;
+}
+.bentley{
+background-position: -369px 0;
+width: 194px;
+height: 100px;
+}
+.bmw{
+background-position: -579px 0;
+width: 160px;
+height: 100px;
+}
+.buick{
+background-position: -755px 0;
+width: 133px;
+height: 100px;
+}
+.cadillac{
+background-position: -905px 0;
+width: 145px;
+height: 100px;
+}
+.chevrolet{
+background-position: -1066px -0.0000152587890625px;
+width: 150px;
+height: 100px;
+}
+.chrysler{
+background-position: -1235px 0;
+width: 133px;
+height: 100px;
+}
+.dodge{
+background-position: 0 -147.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.fiat{
+background-position: -168px -147px;
+width: 150px;
+height: 100px;
+}
+.ford{
+background-position: -342px -147.00001525878906px;
+width: 166px;
+height: 100px;
+}
+.gmc{
+background-position: -531px -148.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.honda{
+background-position: -699px -149.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.hyundai{
+background-position: -868px -149px;
+width: 150px;
+height: 100px;
+}
+.infiniti{
+background-position: -1036px -148.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.jaguar{
+background-position: -1218.3333400000001px -148.00001525878906px;
+width: 160px;
+height: 100px;
+}
+.jeep{
+background-position: 0 -295.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.kia{
+background-position: -166px -297.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.landrover{
+background-position: -340px -297.00001525878906px;
+width: 175px;
+height: 100px;
+}
+.lexus{
+background-position: -535px -297.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.mazda{
+background-position: -700px -297.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.mercedes{
+background-position: -868px -296.00001525878906px;
+width: 141px;
+height: 100px;
+}
+.mini{
+background-position: -1040px -297.00001525878906px;
+width: 142px;
+height: 100px;
+}
+.mitsubishi{
+background-position: -1244px -291.00001525878906px;
+width: 132px;
+height: 100px;
+}
+.nissan{
+background-position: 0 -443.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.peugeot{
+background-position: -168px -444.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.porsche{
+background-position: -343px -443.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.saab{
+background-position: -517px -444.00001525878906px;
+width: 166px;
+height: 100px;
+}
+.saturn{
+background-position: -703px -445.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.smart{
+background-position: -869px -446.00001525878906px;
+width: 150px;
+height: 100px;
+}
+.subaru{
+background-position: -1037px -445.00001525878906px;
+width: 151px;
+height: 100px;
+}
+.suzuki{
+background-position: -1201.3333400000001px -446.00001525878906px;
+width: 177px;
+height: 100px;
+}
+.toyota{
+background-position: 0 -593.0000152587891px;
+width: 150px;
+height: 100px;
+}
+.volkswagen{
+background-position: -175.00001907348633px -593.0000152587891px;
+width: 178px;
+height: 100px;
+}
+.volvo{
+background-position: -378px -593.0000152587891px;
+width: 177px;
+height: 100px;
+}

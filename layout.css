@@ -1,0 +1,136 @@
+html 
+	{
+	width: 100%;
+	height: auto;
+	-ms-font-size-adjust: 0.58;
+	-webkit-font-size-adjust: 0.58;
+	overflow-x: hidden;
+	font-size: 24px;
+	}
+
+html
+	{
+	background-image: url("CameroSS_faded.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+body
+	{
+	width: 100%;
+	height: auto;
+	box-padding: 20%;
+	}
+
+body
+	{
+	color: #FFFFFF;
+	font-weight: bold;
+	}
+
+html, body
+	{
+	font-family: Verdana, sans-serif;
+	line-height: 1.5;
+	}
+
+header
+	{
+	width: 100%;
+	height: auto;
+	margin-bottom: 2%;
+	padding: 0;
+	display: flex;
+	display: -webkit-flex;
+	}
+
+footer	
+	{
+	
+	height: auto;
+	max-width: 100%;
+	margin: 2%;
+	padding: 2%;
+	background-image: url("blackmetal.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #FFFFFF;
+	text-shadow: 5px 5px 10px red, 0px 0px 10px red, 0px 0px 5px skyblue;
+	text-justify: auto;
+	}
+
+footer a
+	{
+	color: white;
+	}
+
+div	
+	{
+	display: block;
+	box-padding: 5%;
+	}
+h3 a, p a
+	{
+	color:blue;
+	background-color:lightgrey;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 0.5%;
+	}
+
+h3 a:hover, p a:hover
+	{
+	color:lightgrey;
+	background-color:blue;
+	border: 5px solid white;
+	border-radius: 5px;
+	padding: 0.5%;
+	}
+
+h1	{
+	color: #FFFFFF;
+	font-size: 250%;
+	font-family: Arial, "Time New Roman", "Comic Sans MS";
+	font-weight: bolder;
+	position: relative;
+	text-align: center;
+	text-shadow: 10px 10px 20px darkblue, 0px 0px 25px blue, 0px 0px 5px skyblue;
+	text-justify: auto;	
+	}
+
+h2
+	{
+	font-size: 130%;
+	text-decoration: none;
+	}
+
+h3
+	{
+	font-size: 115%;
+	}
+
+
+h5
+	{
+	font-size: 20px;
+	}
+
+h6
+	{
+	font-size:75%;
+	}
+
+h2,h3,h5,h6
+	{
+	color: #F0F8FF;
+	font-weight: bold;
+	margin: 10px 0;
+	}
+
+	
+h1 a,h2 a,h3 a,h5 a,h6 a
+	{
+	font-weight:inherit;
+	}
